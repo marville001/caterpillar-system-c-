@@ -70,7 +70,8 @@ public class GecaController
 		}
 	}
 
-	public void PaintRadarBoard(){
+	public void PaintRadarBoard()
+	{
 		Console.Clear();
 		DisplayRadarImage();
 		DisplayMenu();
@@ -122,7 +123,7 @@ public class GecaController
 
 	public void MoveCaterpillar(char direction, int index = -1, int x = 0, int y = 0)
 	{
-		if(!IsValidateDirection(direction))
+		if (!IsValidateDirection(direction))
 		{
 			throw new Exception("Invalid direction provided");
 		}
@@ -174,10 +175,17 @@ public class GecaController
 
 			head.X = headX;
 			head.Y = headY;
-			// _caterpillar.Segments.Insert(_caterpillar.headIndex, new Segment(headX, headY, AppConstants.HEAD));
 
-			MoveCaterpillar(direction, _caterpillar.headIndex + 1, nextX, nextY);
+			if (!IsAdjacent(head, _caterpillar.Segments[1]))
+			{
+				MoveCaterpillar(direction, _caterpillar.headIndex + 1, nextX, nextY);
+			}
 		}
+	}
+
+	private static bool IsAdjacent(Segment seg1, Segment seg2)
+	{
+		return Math.Abs(seg1.X - seg2.X) == 1 && Math.Abs(seg1.Y - seg2.Y) == 1;
 	}
 
 	public void ShrinkingCaterpillar()
@@ -208,9 +216,9 @@ public class GecaController
 
 	public void DisplayRadarImage()
 	{
-		for(int i = 0; i < _size; i++)
+		for (int i = 0; i < _size; i++)
 		{
-			for(int j = 0; j < _size; j++)
+			for (int j = 0; j < _size; j++)
 			{
 				var segment = _caterpillar.GetSegment(j, i);
 				var isBooster = _boosters.Exists(b => b[0] == j && b[1] == i);
@@ -219,7 +227,7 @@ public class GecaController
 
 				if (segment != null)
 				{
-					if(isBooster)
+					if (isBooster)
 					{
 						var boosterIndex = _boosters.FindIndex(b => b[0] == j && b[1] == i);
 						GrowingCaterpillar();
