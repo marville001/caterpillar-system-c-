@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CaterpillarControlSystem.App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04ca1b76147c546c7d2f2c938b7d32edf3c80f21")]
 [assembly: System.Reflection.AssemblyProductAttribute("CaterpillarControlSystem.App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CaterpillarControlSystem.App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

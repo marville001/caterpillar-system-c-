@@ -185,7 +185,7 @@ public class GecaController
 
 	private static bool IsAdjacent(Segment seg1, Segment seg2)
 	{
-		return Math.Abs(seg1.X - seg2.X) == 1 && Math.Abs(seg1.Y - seg2.Y) == 1;
+		return Math.Abs(seg1.X - seg2.X) <= 1 && Math.Abs(seg1.Y - seg2.Y) <= 1;
 	}
 
 	public void ShrinkingCaterpillar()
@@ -276,7 +276,7 @@ public class GecaController
 
 	}
 
-	private static bool IsValidateDirection(char direction)
+	private bool IsValidateDirection(char direction)
 	{
 		if (!new char[]
 			{
@@ -288,6 +288,18 @@ public class GecaController
 		{
 			return false;
 		}
+
+		if (
+			(direction == AppConstants.UP && _caterpillar.Segments.First().Y == 0) ||
+			(direction == AppConstants.DOWN && _caterpillar.Segments.First().Y == _size - 1) ||
+			(direction == AppConstants.LEFT && _caterpillar.Segments.First().X == 0) ||
+			(direction == AppConstants.RIGHT && _caterpillar.Segments.First().X == _size - 1)
+		)
+		{
+			_logger.Log("Caterpillar hit the wall", "ERROR");
+			return false;
+		}
+
 
 		return true;
 	}

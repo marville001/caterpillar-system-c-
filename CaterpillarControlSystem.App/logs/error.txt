@@ -1,0 +1,48 @@
+
+2024-02-09 07:47:44 - ERROR - Invalid command
+2024-02-09 07:47:47 - ERROR - Caterpillar hit an obstacle
+2024-02-09 08:50:49 - ERROR - Invalid command
+2024-02-09 08:50:52 - ERROR - Invalid command
+2024-02-09 09:13:03 - ERROR - Invalid command
+2024-02-09 09:13:57 - ERROR - Caterpillar hit an obstacle
+2024-02-09 09:53:13 - ERROR - Invalid command
+2024-02-09 09:53:52 - ERROR - Invalid command
+2024-02-09 09:53:54 - ERROR - Invalid command
+2024-02-09 09:53:56 - ERROR - Invalid command
+2024-02-09 09:58:55 - ERROR - Invalid command
+2024-02-09 09:58:56 - ERROR - Invalid command
+2024-02-09 09:59:02 - ERROR - Invalid command
+2024-02-12 19:35:33 - ERROR - Invalid command
+2024-02-12 19:35:42 - ERROR - Invalid command
+2024-02-12 19:40:29 - ERROR - Caterpillar hit the wall
+2024-02-12 19:40:29 - ERROR - Invalid direction provided
+2024-02-12 19:40:30 - ERROR - Caterpillar hit the wall
+2024-02-12 19:40:30 - ERROR - Invalid direction provided
+2024-02-12 19:40:31 - ERROR - Caterpillar hit the wall
+2024-02-12 19:40:31 - ERROR - Invalid direction provided
+2024-02-12 19:40:51 - ERROR - Caterpillar hit the wall
+2024-02-12 19:40:51 - ERROR - Invalid direction provided
+2024-02-12 19:42:53 - ERROR - Invalid command
+2024-02-12 19:42:54 - ERROR - Caterpillar hit the wall
+2024-02-12 19:42:54 - ERROR - Invalid direction provided
+2024-02-12 19:42:54 - ERROR - Caterpillar hit the wall
+2024-02-12 19:42:54 - ERROR - Invalid direction provided
+2024-02-12 19:42:54 - ERROR - Caterpillar hit the wall
+2024-02-12 19:42:54 - ERROR - Invalid direction provided
+2024-02-12 19:42:55 - ERROR - Caterpillar hit the wall
+2024-02-12 19:42:55 - ERROR - Invalid direction provided
+2024-02-12 19:42:57 - ERROR - Invalid command
+2024-02-12 19:42:57 - ERROR - Caterpillar hit the wall
+2024-02-12 19:42:57 - ERROR - Invalid direction provided
+2024-02-12 19:42:58 - ERROR - Caterpillar hit the wall
+2024-02-12 19:42:58 - ERROR - Invalid direction provided
+2024-02-12 19:43:01 - ERROR - Invalid command
+2024-02-12 19:43:01 - ERROR - Invalid command
+2024-02-12 19:43:03 - ERROR - Invalid command
+2024-02-12 19:43:21 - ERROR - Caterpillar hit the wall
+2024-02-12 19:43:21 - ERROR - Invalid direction provided
+2024-02-12 19:43:22 - ERROR - Caterpillar hit the wall
+2024-02-12 19:43:22 - ERROR - Invalid direction provided
+2024-02-12 19:43:23 - ERROR - Caterpillar hit the wall
+2024-02-12 19:43:23 - ERROR - Invalid direction provided
+2024-02-12 19:44:00 - ERROR - Invalid command
